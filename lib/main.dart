@@ -10,16 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-    final pagess={
-      Container(color: Colors.orangeAccent,),
-      Container(color: Colors.orange,),
-      Container(color: Colors.teal,),
-      Container(color: Colors.tealAccent,),
-      Container(color: Colors.greenAccent,),
-      Container(color: Colors.green,),
-    };
-
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
